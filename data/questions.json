@@ -1,0 +1,158 @@
+[
+  {
+    "question_id": "basics-1",
+    "topic_id": "python_basics",
+    "prompt": "What is the value of 17 // 5?",
+    "options": {
+      "a": "3",
+      "b": "3.4",
+      "c": "2",
+      "d": "4"
+    },
+    "correct_option": "a",
+    "explanation": "Floor division of these positive integers gives the whole-number quotient 3."
+  },
+  {
+    "question_id": "basics-2",
+    "topic_id": "python_basics",
+    "prompt": "What is the value of \"ab\" + \"cd\"?",
+    "options": {
+      "a": "abcd",
+      "b": "ab cd",
+      "c": "An error",
+      "d": "[ab, cd]"
+    },
+    "correct_option": "a",
+    "explanation": "The + operator concatenates these two strings."
+  },
+  {
+    "question_id": "loops-1",
+    "topic_id": "loops",
+    "prompt": "Which values are produced by range(1, 4)?",
+    "options": {
+      "a": "1, 2, 3",
+      "b": "1, 2, 3, 4",
+      "c": "0, 1, 2, 3",
+      "d": "4, 3, 2, 1"
+    },
+    "correct_option": "a",
+    "explanation": "The start is included and the stop value is excluded."
+  },
+  {
+    "question_id": "loops-2",
+    "topic_id": "loops",
+    "prompt": "What does break do inside a loop?",
+    "options": {
+      "a": "Skips only the current iteration",
+      "b": "Exits the innermost loop",
+      "c": "Exits every loop",
+      "d": "Restarts the loop"
+    },
+    "correct_option": "b",
+    "explanation": "break exits the nearest enclosing loop."
+  },
+  {
+    "question_id": "functions-1",
+    "topic_id": "functions",
+    "prompt": "What does a Python function return if execution reaches its end without return?",
+    "options": {
+      "a": "0",
+      "b": "False",
+      "c": "None",
+      "d": "An empty string"
+    },
+    "correct_option": "c",
+    "explanation": "Reaching the end without an explicit return produces None."
+  },
+  {
+    "question_id": "functions-2",
+    "topic_id": "functions",
+    "prompt": "For def add(a, b=2): return a+b, what is add(5)?",
+    "options": {
+      "a": "2",
+      "b": "5",
+      "c": "7",
+      "d": "An error"
+    },
+    "correct_option": "c",
+    "explanation": "The default b value is 2, so the returned sum is 7."
+  },
+  {
+    "question_id": "lists-1",
+    "topic_id": "lists",
+    "prompt": "Given xs = [4, 8, 12], what is xs[1]?",
+    "options": {
+      "a": "4",
+      "b": "8",
+      "c": "12",
+      "d": "An error"
+    },
+    "correct_option": "b",
+    "explanation": "List indexes start at zero, so index 1 refers to the second item."
+  },
+  {
+    "question_id": "lists-2",
+    "topic_id": "lists",
+    "prompt": "After xs = [1, 2]; xs.append(3), what is xs?",
+    "options": {
+      "a": "[1, 2, 3]",
+      "b": "[3, 1, 2]",
+      "c": "[1, 3]",
+      "d": "None"
+    },
+    "correct_option": "a",
+    "explanation": "append mutates the list by adding one item at the end."
+  },
+  {
+    "question_id": "dict-1",
+    "topic_id": "dictionaries",
+    "prompt": "What is {\"a\": 4}.get(\"b\", 0)?",
+    "options": {
+      "a": "4",
+      "b": "None",
+      "c": "0",
+      "d": "An error"
+    },
+    "correct_option": "c",
+    "explanation": "get returns the supplied default when the key is absent."
+  },
+  {
+    "question_id": "dict-2",
+    "topic_id": "dictionaries",
+    "prompt": "Which dictionary method provides key-value pairs for iteration?",
+    "options": {
+      "a": "keys()",
+      "b": "items()",
+      "c": "values()",
+      "d": "append()"
+    },
+    "correct_option": "b",
+    "explanation": "items() exposes each key with its associated value."
+  },
+  {
+    "question_id": "exceptions-1",
+    "topic_id": "exceptions",
+    "prompt": "Which exception is raised by int(\"hello\")?",
+    "options": {
+      "a": "TypeError",
+      "b": "KeyError",
+      "c": "ValueError",
+      "d": "IndexError"
+    },
+    "correct_option": "c",
+    "explanation": "A string is an accepted input type, but this string is not a valid integer representation."
+  },
+  {
+    "question_id": "exceptions-2",
+    "topic_id": "exceptions",
+    "prompt": "Which block is used for cleanup after a try statement?",
+    "options": {
+      "a": "finally",
+      "b": "repeat",
+      "c": "switch",
+      "d": "return"
+    },
+    "correct_option": "a",
+    "explanation": "The finally block is designed for cleanup as control leaves the try statement."
+  }
+]

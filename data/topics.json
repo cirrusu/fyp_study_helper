@@ -1,0 +1,37 @@
+[
+  {
+    "topic_id": "python_general",
+    "title": "Python courses",
+    "description": "Python programming courses and broad learning resources."
+  },
+  {
+    "topic_id": "python_basics",
+    "title": "Python basics",
+    "description": "Python variables numbers strings operators assignment and basic expressions."
+  },
+  {
+    "topic_id": "loops",
+    "title": "Loops",
+    "description": "Python for while loops iteration range break continue and nested loops."
+  },
+  {
+    "topic_id": "functions",
+    "title": "Functions",
+    "description": "Python functions def return parameters arguments defaults and scope."
+  },
+  {
+    "topic_id": "lists",
+    "title": "Lists",
+    "description": "Python lists indexes slices append mutable sequences and list comprehensions."
+  },
+  {
+    "topic_id": "dictionaries",
+    "title": "Dictionaries",
+    "description": "Python dictionaries keys values items get mappings and key value lookups."
+  },
+  {
+    "topic_id": "exceptions",
+    "title": "Exceptions",
+    "description": "Python exceptions try except finally raise and handling errors."
+  }
+]
